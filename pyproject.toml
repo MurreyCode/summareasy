@@ -2,12 +2,22 @@
 name = "summarease"
 version = "0.1.0"
 description = ""
-authors = ["Pablo Reynel"]
+authors = ["Pablo Reynel <pablo.reynel@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
+google-auth = "^2.36.0"
+google-auth-oauthlib = "^1.2.1"
+google-auth-httplib2 = "^0.2.0"
+google-api-python-client = "^2.151.0"
+requests = "^2.32.3"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+black = "^24.10.0"
+flake8 = "^7.1.1"
 
 [build-system]
 requires = ["poetry-core"]
