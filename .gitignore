@@ -4,6 +4,8 @@
 *.egg-info
 # magic environments
 .magic
-summarease.db
+summareasy.db
 credentials.json
 token.json
+.env
+email_sample.json
