@@ -1,11 +1,8 @@
 
-# pixi environments
-.pixi
-*.egg-info
-# magic environments
-.magic
 summareasy.db
 credentials.json
 token.json
 .env
 email_sample.json
+summareasy/*/__pycache__/
+summareasy/__pycache__/
